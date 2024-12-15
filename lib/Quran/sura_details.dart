@@ -1,3 +1,8 @@
+import 'dart:ffi';
+import 'dart:io';
+
+import 'package:flutter/services.dart';
+
 class SuraDetails {
   static List<String> arabicAuranSuras = [
     "الفاتحه",

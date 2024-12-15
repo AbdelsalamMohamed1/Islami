@@ -2,10 +2,10 @@ import 'package:flutter/material.dart';
 
 import '../data_features/my_theme_data.dart';
 
-class HadethDisplay extends StatelessWidget {
+class HadethWidget extends StatelessWidget {
   List<String>lines;
   String title;
-  HadethDisplay({required this.lines,required this.title});
+  HadethWidget({required this.lines,required this.title});
   @override
   Widget build(BuildContext context) {
     return Container(

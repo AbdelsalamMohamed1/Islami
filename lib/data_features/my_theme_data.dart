@@ -5,7 +5,7 @@ import 'package:islami/data_features/my_app_colors.dart';
 class MyThemeData {
   static final ThemeData lightTheme = ThemeData(
     appBarTheme: AppBarTheme(
-      backgroundColor: Colors.transparent,
+      backgroundColor: MyAppColors.black,
     ),
     scaffoldBackgroundColor: Colors.transparent,
       textTheme: TextTheme(
